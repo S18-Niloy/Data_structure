@@ -1,3 +1,9 @@
+class Node:
+  def __init__(self, e):
+    self.element = e
+    self.next = None
+    self.prev = None
+    
 class DoublyList:
   
   def __init__(self, a):
